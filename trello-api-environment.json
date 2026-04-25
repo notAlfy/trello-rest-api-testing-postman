@@ -1,0 +1,82 @@
+{
+	"id": "b9d57ebe-5c12-4332-b86e-5ab7698d0590",
+	"name": "Trello APIs Environment",
+	"values": [
+		{
+			"key": "key",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "base_url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "boardID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "listID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "cardID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "myboardname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "updatedboardname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "mylistname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "updatedlistname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "mycardname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "updatedcardname",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-04-25T11:30:56.999Z",
+	"_postman_exported_using": "Postman/12.7.6"
+}
