@@ -1,4 +1,5 @@
 # 🧪 Trello REST API Testing (Postman)
+> A hands-on REST API testing project using Postman demonstrating API chaining, validation, and performance testing on Trello APIs.
 
 ---
 
@@ -147,9 +148,9 @@ Response time < 1000ms
 
 ### 4️⃣ Import Collection JSON file on Postman
 
-### 5️⃣ Setup Environment Variables with base_url, key and token
+### 5️⃣ Setup Environment Variables (`key`, `token`, `base_url`)
 
-### 6️⃣ Run the Collection
+### 6️⃣ Run using Collection Runner 
 
 ---
 
