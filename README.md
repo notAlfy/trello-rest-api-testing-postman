@@ -27,6 +27,7 @@ The goal of this project is to simulate **real-world QA API testing practices**,
 ```
 trello-rest-api-testing-postman/
  ├── trello-api-collection.json
+ ├── trello-environment.json
  └── README.md
 
 ```
