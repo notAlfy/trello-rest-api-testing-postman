@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This project demonstrates **end-to-end REST API testing of Trello** using Postman.
 It covers core functionalities such as **Boards, Lists, and Cards**, including CRUD operations, request chaining, and automated validation.
@@ -12,7 +12,7 @@ The goal of this project is to simulate **real-world QA API testing practices**,
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Perform CRUD operations testing on Trello APIs
 * Implement **API chaining** using environment variables
@@ -22,7 +22,7 @@ The goal of this project is to simulate **real-world QA API testing practices**,
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 trello-rest-api-testing-postman/
@@ -32,23 +32,23 @@ trello-rest-api-testing-postman/
 
 ```
 
-## 🔎 Test Scope
+## Test Scope
 
-### 📋 Board
+### Board
 
 * Create a Board
 * Get the Board
 * Update the Board
 * Delete the Board
 
-### 📑 List
+### List
 
 * Create a List on Board
 * Get the List on Board
 * Update the List
 * Archive the List
 
-### 📝 Card
+### Card
 
 * Create a Card
 * Get the Card
@@ -57,7 +57,7 @@ trello-rest-api-testing-postman/
 
 ---
 
-## 🔄 API Workflow (Test Flow)
+## API Workflow (Test Flow)
 
 ```text
 Create Board → Get Board → Update Board  
@@ -75,7 +75,7 @@ Delete Board → Verify Deletion
 
 ---
 
-## 🧪 Test Scenarios
+## Test Scenarios
 
 ### ✅ Functional Testing
 
@@ -97,7 +97,7 @@ Delete Board → Verify Deletion
 
 ---
 
-## 📊 Assertions Implemented
+## Assertions Implemented
 
 * Status code validation
 * Response structure validation (`id`, `name`, `url`)
@@ -107,7 +107,7 @@ Delete Board → Verify Deletion
 
 ---
 
-## 🔗 Environment Variables
+## Environment Variables
 
 The following variables are used for request chaining:
 
@@ -120,7 +120,7 @@ The following variables are used for request chaining:
 
 ---
 
-## ⚡ Performance Testing
+## Performance Testing
 
 A collection-level test ensures:
 
@@ -130,7 +130,7 @@ Response time < 1000ms
 ```
 
 ---
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Postman
 * REST API (Trello API)
@@ -139,19 +139,19 @@ Response time < 1000ms
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
-### 1️⃣ Install Postman
+### Install Postman
 
-### 2️⃣ Create Trello Account
+### Create Trello Account
 
-### 3️⃣ Generate API Key & Token
+### Generate API Key & Token
 
-### 4️⃣ Import Collection JSON file on Postman
+### Import Collection JSON file on Postman
 
-### 5️⃣ Setup Environment Variables (`key`, `token`, `base_url`)
+### Setup Environment Variables (`key`, `token`, `base_url`)
 
-### 6️⃣ Run using Collection Runner 
+### Run using Collection Runner 
 
 ---
 
@@ -160,7 +160,7 @@ Response time < 1000ms
 <img width="1920" height="1019" alt="Trello APIs result" src="https://github.com/user-attachments/assets/af458914-8517-4db7-b3f0-55129eb00dab" />
 
 
-## 📈 Key Learnings
+## Key Learnings
 
 * API chaining using environment variables
 * Writing reusable test scripts in Postman
